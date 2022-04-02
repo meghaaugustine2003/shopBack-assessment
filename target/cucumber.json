@@ -1,0 +1,207 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-02T07:20:33.838Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4304518100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To verify whether the sorting option in product details page is working",
+        "description": "",
+        "id": "shopback-web-application-testing;to-verify-whether-the-sorting-option-in-product-details-page-is-working",
+        "after": [
+          {
+            "result": {
+              "duration": 247436500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.terminateTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on the home page after login",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_is_on_the_home_page_after_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 230763400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User hover on the option categories",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_hover_on_the_option_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231914300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User select the option Fashion",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_select_the_option_fashion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996348400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User select the sub category Jeans",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_select_the_sub_category_jeans()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2112274900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on the product named \"Woman Jeans High Waist Clothes Wide Leg Denim Clothing Blue Streetwear Vintage Quality Fashion Harajuku Straight Pants\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Woman Jeans High Waist Clothes Wide Leg Denim Clothing Blue Streetwear Vintage Quality Fashion Harajuku Straight Pants\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefs.AssessmentSteps.then_user_click_on_the_product_named(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8004100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should be directed to the product details page",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_should_be_directed_to_the_product_details_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 391278100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on filter option",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_clicks_on_filter_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2512948400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User select the availability check box for In Stock Only and click on Done button",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_select_the_availability_check_box_for_in_stock_only_and_click_on_done_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117681500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Products should be filtered with In Stock only",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.products_should_be_filtered_with_in_stock_only()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5392850500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on sort option and select price Low to High",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_click_on_sort_option_and_select_price_low_to_high()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 560265200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Products should be listed in the ascending order of price",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.products_should_be_listed_in_the_ascending_order_of_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5280527600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User scroll down to the page and click on 2nd page button",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_scroll_down_to_the_page_and_click_on_2nd_page_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96008300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should be directed to the second page",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_should_be_directed_to_the_second_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopback web application testing",
+    "description": "",
+    "id": "shopback-web-application-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Assessment.feature",
+    "tags": []
+  }
+]
