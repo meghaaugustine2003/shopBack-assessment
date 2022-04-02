@@ -3,15 +3,165 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-04-02T07:20:33.838Z",
+        "start_timestamp": "2022-04-02T13:25:25.195Z",
         "before": [
           {
             "result": {
-              "duration": 4304518100,
+              "duration": 3629837200,
               "status": "passed"
             },
             "match": {
               "location": "stepDefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To verify user can successfully login with valid credentials",
+        "description": "",
+        "id": "shopback-web-application-testing;to-verify-user-can-successfully-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 188169200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.terminateTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96014700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the login screen",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_is_on_the_login_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171270000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Login option",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_clicks_on_login_signup_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58620200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241708500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the email \"qaassignment@shopback.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qaassignment@shopback.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefs.AssessmentSteps.user_enters_the_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106410200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User tap on Next button",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_tap_on_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 703661400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the password \"Shopback22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shopback22\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefs.AssessmentSteps.user_enters_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103003000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User tap on Next button",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_tap_on_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2397937300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Should redirect to Home screen",
+            "match": {
+              "location": "stepDefs.AssessmentSteps.user_should_redirect_to_home_screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-02T13:25:32.925Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2365682000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4796662000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.userLogin()"
             }
           }
         ],
@@ -22,7 +172,7 @@
         "after": [
           {
             "result": {
-              "duration": 247436500,
+              "duration": 264302700,
               "status": "passed"
             },
             "match": {
@@ -46,7 +196,7 @@
           },
           {
             "result": {
-              "duration": 230763400,
+              "duration": 816268700,
               "status": "passed"
             },
             "line": 16,
@@ -58,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 231914300,
+              "duration": 161702900,
               "status": "passed"
             },
             "line": 17,
@@ -70,7 +220,7 @@
           },
           {
             "result": {
-              "duration": 996348400,
+              "duration": 919849800,
               "status": "passed"
             },
             "line": 18,
@@ -82,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 2112274900,
+              "duration": 101990700,
               "status": "passed"
             },
             "line": 19,
@@ -100,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 8004100,
+              "duration": 23976900,
               "status": "passed"
             },
             "line": 20,
@@ -112,7 +262,7 @@
           },
           {
             "result": {
-              "duration": 391278100,
+              "duration": 858798700,
               "status": "passed"
             },
             "line": 21,
@@ -124,7 +274,7 @@
           },
           {
             "result": {
-              "duration": 2512948400,
+              "duration": 684315200,
               "status": "passed"
             },
             "line": 22,
@@ -136,7 +286,7 @@
           },
           {
             "result": {
-              "duration": 117681500,
+              "duration": 39984200,
               "status": "passed"
             },
             "line": 23,
@@ -148,19 +298,19 @@
           },
           {
             "result": {
-              "duration": 5392850500,
+              "duration": 647225400,
               "status": "passed"
             },
             "line": 24,
-            "name": "User click on sort option and select price Low to High",
+            "name": "User click on sort option and select price High to Low",
             "match": {
-              "location": "stepDefs.AssessmentSteps.user_click_on_sort_option_and_select_price_low_to_high()"
+              "location": "stepDefs.AssessmentSteps.user_click_on_sort_option_and_select_price_high_to_low()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 560265200,
+              "duration": 214464300,
               "status": "passed"
             },
             "line": 25,
@@ -172,7 +322,7 @@
           },
           {
             "result": {
-              "duration": 5280527600,
+              "duration": 1131881400,
               "status": "passed"
             },
             "line": 26,
@@ -184,7 +334,7 @@
           },
           {
             "result": {
-              "duration": 96008300,
+              "duration": 57830300,
               "status": "passed"
             },
             "line": 27,
@@ -193,6 +343,11 @@
               "location": "stepDefs.AssessmentSteps.user_should_be_directed_to_the_second_page()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
           }
         ]
       }

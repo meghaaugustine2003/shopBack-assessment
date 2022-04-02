@@ -9,7 +9,12 @@
 # How to run
 Run the following command to start the test.
 ```
-mvn test
+mvn test verify
 ```
+
+
+# Reports
+Once the test is completed,
+1. Navigate to the target folder `target\reports\cucumber-html-reports` and open `overview-features.html`.
 
 
